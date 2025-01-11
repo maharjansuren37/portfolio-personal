@@ -1,4 +1,4 @@
 # portfolio-sm-v0.2
-HTML
-CSS
+HTML-5
+CSS-3
 JS
