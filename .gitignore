@@ -1,0 +1,73 @@
+# ===============================
+# Node.js
+# ===============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json.backup
+
+# ===============================
+# Environment variables
+# ===============================
+.env
+.env.*
+!.env.example
+
+# ===============================
+# Build / Dist
+# ===============================
+dist/
+build/
+out/
+.tmp/
+.cache/
+
+# ===============================
+# Logs
+# ===============================
+logs/
+*.log
+
+# ===============================
+# PostgreSQL
+# ===============================
+# Local database dumps
+*.sql
+*.dump
+
+# PostgreSQL data directories (if running locally)
+pgdata/
+postgres-data/
+
+# ===============================
+# Testing
+# ===============================
+coverage/
+.nyc_output/
+
+# ===============================
+# OS / Editor
+# ===============================
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# JetBrains
+.idea/
+
+# ===============================
+# TypeScript (if used)
+# ===============================
+*.tsbuildinfo
+
+# ===============================
+# Docker (if used)
+# ===============================
+.docker/
+docker-data/

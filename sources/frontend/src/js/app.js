@@ -12,3 +12,18 @@ navLinks.forEach(link => {
         document.body.classList.remove('nav-open');
     });
 })
+
+
+async function getPages() {
+    const res = await fetch('http://localhost:5001');
+
+    if (!res.ok) {
+        throw new Error('Failed to Fetch');
+    }
+
+    const pages = await res.json();
+
+    console.log(pages.msg);
+}
+
+getPages();
